@@ -1,5 +1,5 @@
 # ForestLike
-ForestLike is a productivity app. If you need to concentrate, start a timer, the desire to get a rating will motivate you to stay focused.
+ForestLike is a productivity app. The main function is to start the timer. While the timer is running, the application monitors the user's activity. If the user opens another application, the timer stops and progress is lost. In another case, the user receives a few rating points as an incentive, and a record of this period of concentration is stored locally or remotely. The user can view statics, such as favorite topic to concentrate on or average time. The user can call a friend and start the timer together, which will further motivate you to stay focused.
 # Ilya Yushchuk group 253505
 # Class diagram
 ![image](https://github.com/IlyaYushchuk/ForestLike/assets/112698602/dd34e688-64fe-4455-8412-c03829065a41)
