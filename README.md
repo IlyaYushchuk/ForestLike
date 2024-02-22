@@ -2,7 +2,7 @@
 ForestLike is a productivity app. If you need to concentrate, start a timer, the desire to get a rating will motivate you to stay focused.
 # Ilya Yushchuk group 253505
 # Class diagram
-https://app.creately.com/d/fTtBZTErtdK/view
+![image](https://github.com/IlyaYushchuk/ForestLike/assets/112698602/dd34e688-64fe-4455-8412-c03829065a41)
 
 ## DataAccess layer
 This layer is responsible for retrieving and storing data from a database or local storage
@@ -21,7 +21,7 @@ This layer is responsible for retrieving and storing data from a database or loc
 ## Business-Logical layer
 The layer contains all the logic needed by the application to implementation of all functions. 
 
-![image](https://github.com/IlyaYushchuk/ForestLike/assets/112698602/aae50ed9-74b1-40f2-9b7c-e14e85214648)
+![image](https://github.com/IlyaYushchuk/ForestLike/assets/112698602/505a36c1-2174-45ec-9ddc-b47b86d29eab)
 
 ### User
 -representing the user stores the name, hashed password, rating and ID.
@@ -61,3 +61,13 @@ UI/visualization to the user.
 13) In the application user can view the best users by rating.
 
 ## Data models
+![image](https://github.com/IlyaYushchuk/ForestLike/assets/112698602/001fc349-f563-4d3e-8078-710d001a6093)
+### User
+-contain name, rating, id, hashed password and recoeds
+### Record
+-contain time, theme, date, was it failed and time of fail.
+### CooperativeRecord
+-same as Record but also contain info about second user.
+### SecondUser
+-contain name, rating and id. Required to store data about the second user.
+
