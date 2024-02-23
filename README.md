@@ -7,7 +7,7 @@ ForestLike is a productivity app. The main function is to start the timer. While
 ## DataAccess layer
 This layer is responsible for retrieving and storing data from a database or local storage
 
-![image](https://github.com/IlyaYushchuk/ForestLike/assets/112698602/e3f7fc0d-50c6-40d8-834d-6ef90e989836)
+![image](https://github.com/IlyaYushchuk/ForestLike/assets/112698602/61f677a6-6b30-4b0c-a9bf-6722994f8604)
 
 ### IStorageController
 - interface that defines common methods for working with a data store.
@@ -61,7 +61,7 @@ UI/visualization to the user.
 13) In the application user can view the best users by rating.
 
 ## Data models
-![image](https://github.com/IlyaYushchuk/ForestLike/assets/112698602/001fc349-f563-4d3e-8078-710d001a6093)
+![image](https://github.com/IlyaYushchuk/ForestLike/assets/112698602/2b7c6403-84ad-48ca-b3f5-d0122830084c)
 ### User
 -contain name, rating, id, hashed password and recoeds
 ### Record
