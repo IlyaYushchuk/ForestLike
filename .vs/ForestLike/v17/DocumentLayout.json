@@ -58,54 +58,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 27,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 33,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainTimer.cs",
-              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\MainTimer.cs",
-              "RelativeDocumentMoniker": "ForestLike\\MainTimer.cs",
-              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\MainTimer.cs",
-              "RelativeToolTip": "ForestLike\\MainTimer.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T17:46:11.326Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ITimeCounter.cs",
-              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ITimeCounter.cs",
-              "RelativeDocumentMoniker": "ForestLike\\ITimeCounter.cs",
-              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ITimeCounter.cs",
-              "RelativeToolTip": "ForestLike\\ITimeCounter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-31T15:02:55.385Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 25,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ActivityObserver.cs",
-              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ActivityObserver.cs",
-              "RelativeDocumentMoniker": "ForestLike\\ActivityObserver.cs",
-              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ActivityObserver.cs",
-              "RelativeToolTip": "ForestLike\\ActivityObserver.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T06:55:16.847Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -240,6 +194,51 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainTimer.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\MainTimer.cs",
+              "RelativeDocumentMoniker": "ForestLike\\MainTimer.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\MainTimer.cs",
+              "RelativeToolTip": "ForestLike\\MainTimer.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T17:46:11.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITimeCounter.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ITimeCounter.cs",
+              "RelativeDocumentMoniker": "ForestLike\\ITimeCounter.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ITimeCounter.cs",
+              "RelativeToolTip": "ForestLike\\ITimeCounter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T15:02:55.385Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 25,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ActivityObserver.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ActivityObserver.cs",
+              "RelativeDocumentMoniker": "ForestLike\\ActivityObserver.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ActivityObserver.cs",
+              "RelativeToolTip": "ForestLike\\ActivityObserver.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwEUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T06:55:16.847Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\User.cs",
@@ -248,8 +247,7 @@
               "RelativeToolTip": "ForestLike\\User.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAkwDIAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T21:08:42.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T21:08:42.824Z"
             },
             {
               "$type": "Document",
@@ -261,8 +259,7 @@
               "RelativeToolTip": "ForestLike\\ConsoleGUI.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T17:27:24.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T17:27:24.997Z"
             },
             {
               "$type": "Document",
@@ -274,8 +271,7 @@
               "RelativeToolTip": "ForestLike\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T20:39:07.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T20:39:07.172Z"
             },
             {
               "$type": "Document",

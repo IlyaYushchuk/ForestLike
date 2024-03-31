@@ -18,6 +18,7 @@ public class MainTimer : ITimeCounter
 
     TimeSpan ActivCheckPeriod = new TimeSpan(0, 0, 1);
 
+
     Record currRecord = new Record();
 
 
