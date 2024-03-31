@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ForestLike": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

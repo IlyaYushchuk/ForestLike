@@ -1,0 +1,14 @@
+D:\253505\4sem\oop\ForestLike\ForestLike\obj\Debug\net8.0\ForestLike.GeneratedMSBuildEditorConfig.editorconfig
+D:\253505\4sem\oop\ForestLike\ForestLike\obj\Debug\net8.0\ForestLike.AssemblyInfoInputs.cache
+D:\253505\4sem\oop\ForestLike\ForestLike\obj\Debug\net8.0\ForestLike.AssemblyInfo.cs
+D:\253505\4sem\oop\ForestLike\ForestLike\obj\Debug\net8.0\ForestLike.csproj.CoreCompileInputs.cache
+D:\253505\4sem\oop\ForestLike\ForestLike\bin\Debug\net8.0\ForestLike.exe
+D:\253505\4sem\oop\ForestLike\ForestLike\bin\Debug\net8.0\ForestLike.deps.json
+D:\253505\4sem\oop\ForestLike\ForestLike\bin\Debug\net8.0\ForestLike.runtimeconfig.json
+D:\253505\4sem\oop\ForestLike\ForestLike\bin\Debug\net8.0\ForestLike.dll
+D:\253505\4sem\oop\ForestLike\ForestLike\bin\Debug\net8.0\ForestLike.pdb
+D:\253505\4sem\oop\ForestLike\ForestLike\obj\Debug\net8.0\ForestLike.dll
+D:\253505\4sem\oop\ForestLike\ForestLike\obj\Debug\net8.0\refint\ForestLike.dll
+D:\253505\4sem\oop\ForestLike\ForestLike\obj\Debug\net8.0\ForestLike.pdb
+D:\253505\4sem\oop\ForestLike\ForestLike\obj\Debug\net8.0\ForestLike.genruntimeconfig.cache
+D:\253505\4sem\oop\ForestLike\ForestLike\obj\Debug\net8.0\ref\ForestLike.dll
