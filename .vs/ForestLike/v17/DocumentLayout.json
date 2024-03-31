@@ -1,0 +1,356 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\253505\\4sem\\oop\\ForestLike\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\maintimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\maintimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\activityobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\activityobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\consolegui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\consolegui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\itimecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\itimecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\services\\istoragecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\services\\istoragecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\services\\localestoragecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\services\\localestoragecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\forestlike.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\forestlike.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\entities\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\entities\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\entities\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\entities\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 27,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainTimer.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\MainTimer.cs",
+              "RelativeDocumentMoniker": "ForestLike\\MainTimer.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\MainTimer.cs",
+              "RelativeToolTip": "ForestLike\\MainTimer.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T17:46:11.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITimeCounter.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ITimeCounter.cs",
+              "RelativeDocumentMoniker": "ForestLike\\ITimeCounter.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ITimeCounter.cs",
+              "RelativeToolTip": "ForestLike\\ITimeCounter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T15:02:55.385Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 25,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ActivityObserver.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ActivityObserver.cs",
+              "RelativeDocumentMoniker": "ForestLike\\ActivityObserver.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ActivityObserver.cs",
+              "RelativeToolTip": "ForestLike\\ActivityObserver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T06:55:16.847Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:151:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:152:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\User.cs",
+              "RelativeDocumentMoniker": "ForestLike\\User.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\User.cs",
+              "RelativeToolTip": "ForestLike\\User.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAkwDIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T21:08:42.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConsoleGUI.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ConsoleGUI.cs",
+              "RelativeDocumentMoniker": "ForestLike\\ConsoleGUI.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ConsoleGUI.cs",
+              "RelativeToolTip": "ForestLike\\ConsoleGUI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T17:27:24.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Program.cs",
+              "RelativeDocumentMoniker": "ForestLike\\Program.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Program.cs",
+              "RelativeToolTip": "ForestLike\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T20:39:07.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IStorageController.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Services\\IStorageController.cs",
+              "RelativeDocumentMoniker": "ForestLike\\Services\\IStorageController.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Services\\IStorageController.cs",
+              "RelativeToolTip": "ForestLike\\Services\\IStorageController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T21:15:59.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LocaleStorageController.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Services\\LocaleStorageController.cs",
+              "RelativeDocumentMoniker": "ForestLike\\Services\\LocaleStorageController.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Services\\LocaleStorageController.cs",
+              "RelativeToolTip": "ForestLike\\Services\\LocaleStorageController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T17:38:16.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ForestLike",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ForestLike.csproj",
+              "RelativeDocumentMoniker": "ForestLike\\ForestLike.csproj",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ForestLike.csproj",
+              "RelativeToolTip": "ForestLike\\ForestLike.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-27T17:56:16.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Statistic.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Statistic.cs",
+              "RelativeDocumentMoniker": "ForestLike\\Statistic.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Statistic.cs",
+              "RelativeToolTip": "ForestLike\\Statistic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T20:55:13.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Record.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Entities\\Record.cs",
+              "RelativeDocumentMoniker": "ForestLike\\Entities\\Record.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Entities\\Record.cs",
+              "RelativeToolTip": "ForestLike\\Entities\\Record.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T19:38:45.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Activity.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Entities\\Activity.cs",
+              "RelativeDocumentMoniker": "ForestLike\\Entities\\Activity.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Entities\\Activity.cs",
+              "RelativeToolTip": "ForestLike\\Entities\\Activity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T06:57:55.35Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
