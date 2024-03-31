@@ -8,7 +8,8 @@ Console.WriteLine("Hello, World!");
 //ActivityObserver observer = new ActivityObserver();
 
 //observer.GetAllOpenedWindows();
-MainTimer mt  = new MainTimer();
+CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
+MainTimer mt  = new MainTimer(cancellationTokenSource);
 //mt.observer.GetAllOpenedWindows();
 int k = 40;
 
