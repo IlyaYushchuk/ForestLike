@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\253505\\4sem\\oop\\ForestLike\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\maintimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\maintimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\activityobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\activityobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\maintimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\maintimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\entities\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\entities\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\consolegui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\entities\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\entities\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\entities\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\entities\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -194,20 +194,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainTimer.cs",
               "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\MainTimer.cs",
               "RelativeDocumentMoniker": "ForestLike\\MainTimer.cs",
               "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\MainTimer.cs",
               "RelativeToolTip": "ForestLike\\MainTimer.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBQAAAAAAAAA",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAowGAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T17:46:11.326Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ITimeCounter.cs",
               "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ITimeCounter.cs",
               "RelativeDocumentMoniker": "ForestLike\\ITimeCounter.cs",
@@ -225,13 +225,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ActivityObserver.cs",
               "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ActivityObserver.cs",
               "RelativeDocumentMoniker": "ForestLike\\ActivityObserver.cs",
               "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ActivityObserver.cs",
               "RelativeToolTip": "ForestLike\\ActivityObserver.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwEUAAAAYAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAhwEMAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T06:55:16.847Z",
               "IsPinned": true,
@@ -240,18 +240,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\User.cs",
-              "RelativeDocumentMoniker": "ForestLike\\User.cs",
-              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\User.cs",
-              "RelativeToolTip": "ForestLike\\User.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAkwDIAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T21:08:42.824Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "ConsoleGUI.cs",
               "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ConsoleGUI.cs",
               "RelativeDocumentMoniker": "ForestLike\\ConsoleGUI.cs",
@@ -269,13 +257,39 @@
               "RelativeDocumentMoniker": "ForestLike\\Program.cs",
               "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Program.cs",
               "RelativeToolTip": "ForestLike\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAkAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T20:39:07.172Z"
+              "WhenOpened": "2024-03-17T20:39:07.172Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "Record.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Entities\\Record.cs",
+              "RelativeDocumentMoniker": "ForestLike\\Entities\\Record.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Entities\\Record.cs",
+              "RelativeToolTip": "ForestLike\\Entities\\Record.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T19:38:45.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\User.cs",
+              "RelativeDocumentMoniker": "ForestLike\\User.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\User.cs",
+              "RelativeToolTip": "ForestLike\\User.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAkwDIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T21:08:42.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "IStorageController.cs",
               "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Services\\IStorageController.cs",
               "RelativeDocumentMoniker": "ForestLike\\Services\\IStorageController.cs",
@@ -287,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "LocaleStorageController.cs",
               "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Services\\LocaleStorageController.cs",
               "RelativeDocumentMoniker": "ForestLike\\Services\\LocaleStorageController.cs",
@@ -299,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ForestLike",
               "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ForestLike.csproj",
               "RelativeDocumentMoniker": "ForestLike\\ForestLike.csproj",
@@ -310,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Statistic.cs",
               "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Statistic.cs",
               "RelativeDocumentMoniker": "ForestLike\\Statistic.cs",
@@ -323,18 +337,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Record.cs",
-              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Entities\\Record.cs",
-              "RelativeDocumentMoniker": "ForestLike\\Entities\\Record.cs",
-              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Entities\\Record.cs",
-              "RelativeToolTip": "ForestLike\\Entities\\Record.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T19:38:45.962Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Activity.cs",
               "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Entities\\Activity.cs",
               "RelativeDocumentMoniker": "ForestLike\\Entities\\Activity.cs",

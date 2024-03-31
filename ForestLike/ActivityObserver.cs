@@ -13,13 +13,18 @@ public class ActivityObserver
     static extern int GetForegroundWindow(); 
     [DllImport("user32")]
     private static extern UInt32 GetWindowThreadProcessId(Int32 hWnd, out Int32 lpdwProcessId);
+    private static ActivityObserver instance;
+    private Timer activityCheckTimer;
 
     public event Action NotAllowedAppUsed;
 
-    private static ActivityObserver instance;
-    
     private ActivityObserver()
     {
+        activityCheckTimer = new Timer(new TimeSpan(0,0,1));
+        activityCheckTimer.AutoReset = true;
+        activityCheckTimer.Elapsed += (s,e)=>{
+            Observe();
+        };
         var hwnd = GetForegroundWindow();
         allowedApps.Add(Process.GetProcessById(GetWindowProcessID(hwnd)));
         Process process = Process.GetProcessById(GetWindowProcessID(hwnd));
@@ -35,38 +40,19 @@ public class ActivityObserver
         return instance;
     }
 
+    public void StartObserveTimer()
+    {
+        activityCheckTimer.Start();
+    }
+    public void StopObserveTimer()
+    {
+        activityCheckTimer.Stop();
+    }
 
     public IEnumerable<Process> GetAllOpenedWindows()
     {
-        // Process[] processlist = Process.GetProcesses();
-
-        //TODO delete this code
-        //foreach (Process process in processlist)
-        //{
-        //    if (!String.IsNullOrEmpty(process.MainWindowTitle))
-        //    {
-        //        Console.WriteLine("Process: {0} ID: {1} Window title: {2}", process.ProcessName, process.Id, process.MainWindowTitle);
-        //    }
-        //}
         return Process.GetProcesses();
     }
-
-    //public async void KostilFunc()
-    //{
-    //        int j = 0;
-    //        while (j < 1000)
-    //        {
-    //            var currWind = GetForegroundWindow();
-    //            //if (!allowedApps.Contains(Process.GetProcessById(GetWindowProcessID(currWind)).Id))
-    //            //{
-    //            //NotAllowedAppUsed?.Invoke();
-    //            Process process = Process.GetProcessById(GetWindowProcessID(currWind));
-    //            Console.WriteLine("Process: {0} ID: {1} more info {2} something {3}", process.ProcessName, process.Id, process.MainWindowTitle, process.MainWindowHandle);
-    //            //  }
-    //            await Task.Delay(1000);
-    //            j++;
-    //        }
-    //}
     private void Observe()
     {
         var currWind = GetForegroundWindow();
