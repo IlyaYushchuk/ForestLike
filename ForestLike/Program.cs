@@ -1,43 +1,47 @@
-﻿
-using ForestLike;
-using System.Diagnostics;
-using System.Timers;
+﻿using ForestLike;
+using ForestLike.Entities;
+using ForestLike.TimeCounters;
+using ForestLike.ClientServerLogic;
 
-Console.WriteLine("Hello, World!");
+//Client client = new Client();
 
-//ActivityObserver observer = new ActivityObserver();
+//client.ConnectClient();
+//client.StartListininServerAsync();
+//client.SendMessage("Ilya\n");
+//client.SendMessage("Test message1!\n");
+//client.SendMessage("Test message2!\n");
 
-//observer.GetAllOpenedWindows();
-CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
-MainTimer mt  = new MainTimer(cancellationTokenSource);
-//mt.observer.GetAllOpenedWindows();
-int k = 40;
+//client.SendMessage("END!\n");
+StopWatch mt = new StopWatch();
 
-mt.SetTime(new TimeSpan(0, 0, k));
 
-TimeSpan min10 = new TimeSpan(0, 0, k);
-mt.TimerTick += (currTime) =>
+
+int i = 0, j = 0;
+
+mt.TimerTick += async (currTime) =>
 {
     Console.SetCursorPosition(0, 2);
-    Console.Write($"\r{min10 - currTime}");
+    Console.Write($"\r{currTime}");
 };
-
-DateTime startTime = DateTime.Now;
-System.Timers.Timer timer = new System.Timers.Timer(new TimeSpan(0,0,1));
-timer.Elapsed += (source, e) =>
+int k = 6;
+mt.Notification += async (str) =>
 {
-    Console.SetCursorPosition(0, 1);
-    Console.Write($"\r{e.SignalTime.Subtract(startTime)}");
+    await Task.Run(() =>
+    {
+        Task.Delay(17);
+        Console.SetCursorPosition(0, k++);
+        Console.Write(str);
+    }
+    );
+
 };
-timer.AutoReset = true;
 
-//timer.Start();
+
+
+
 Console.ReadLine();
-//mt.observer.KostilFunc();
-Console.ReadLine();
-
-
-
+mt.SetEasyMode();
+mt.SetTheme("enjoing coffee!");
 mt.StartTime();
 Console.WriteLine();
 Console.WriteLine("1) Stop\n\n");
@@ -49,5 +53,9 @@ if (something == "1")
 {
     mt.StopTime();
 }
+
+Record rec = mt.GetRecord();
+
+//Console.WriteLine($"Record {rec.FailedTime}");
 Console.ReadLine();
 Console.ReadLine();

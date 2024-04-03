@@ -12,3 +12,4 @@ D:\253505\4sem\oop\ForestLike\ForestLike\obj\Debug\net8.0\refint\ForestLike.dll
 D:\253505\4sem\oop\ForestLike\ForestLike\obj\Debug\net8.0\ForestLike.pdb
 D:\253505\4sem\oop\ForestLike\ForestLike\obj\Debug\net8.0\ForestLike.genruntimeconfig.cache
 D:\253505\4sem\oop\ForestLike\ForestLike\obj\Debug\net8.0\ref\ForestLike.dll
+D:\253505\4sem\oop\ForestLike\ForestLike\obj\Debug\net8.0\ForestLike.sourcelink.json

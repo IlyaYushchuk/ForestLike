@@ -1,5 +1,6 @@
 ﻿using ForestLike.Entities;
 using ForestLike.Services;
+using ForestLike.TimeCounters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,7 +26,7 @@ public class User
     {
         storageController = sc;
         mainTimer = new MainTimer();
-        mainTimer.NewRecordCreated += NewRecordAdditing;
+        //mainTimer.NewRecordCreated += NewRecordAdditing;
 
     }
 
