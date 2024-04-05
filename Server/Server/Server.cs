@@ -3,6 +3,8 @@ using System.Net.Sockets;
 using System.Net;
 using System.Net.Http;
 using System.Text;
+using System.Text.Json;
+using System.Xml.Linq;
 
 
 namespace ServerNS;
@@ -18,6 +20,17 @@ public class Server
         server = new TcpListener(ipLocalEndPoint);
     }
 
+    public IEnumerable<string> GetAllClientsNames()
+    {
+        return clients.Keys;
+    }
+
+    private void MessageResending(CooperativeTimerRequest request)
+    {
+        SendMessageToUserAsync(request.UserName, JsonSerializer.Serialize(request));
+    }
+
+
     public void StartServer()
     {
         Console.WriteLine("Start");
@@ -29,28 +42,21 @@ public class Server
                 var tcpClient = await server.AcceptTcpClientAsync();
 
                 Console.WriteLine($"Входящее подключение: {tcpClient.Client.RemoteEndPoint}");
-
-                string userName = ListenUserName(tcpClient);
+                
+                string userName = ListenUserName(tcpClient).Result;
                 StartListenUser(userName);
             }
         });
         Console.WriteLine("End");
     }
-    public string ListenUserName(TcpClient tcpClient)
+    public async Task<string> ListenUserName(TcpClient tcpClient)
     {
         var stream = tcpClient.GetStream();
-        
-            var response = new List<byte>();
-            int bytesRead = 10;
-
-            while ((bytesRead = stream.ReadByte()) != '\n')
-            {
-                response.Add((byte)bytesRead);
-            }
-            string name = Encoding.UTF8.GetString(response.ToArray());
-            Console.WriteLine($"User name {name}, tcpClient {tcpClient.Client.RemoteEndPoint}");
-            clients.Add(name, tcpClient);
-            return name;
+        var reader = new StreamReader(stream);
+        string name = await reader.ReadLineAsync();
+        Console.WriteLine($"User name {name}, tcpClient {tcpClient.Client.RemoteEndPoint}");
+        clients.Add(name, tcpClient);
+        return name;
     }
 
     public async Task SendMessageToUserAsync(string userName, string message)
@@ -62,32 +68,23 @@ public class Server
         }
 
         var stream = clients[userName].GetStream();
-        byte[] bytes = Encoding.UTF8.GetBytes(message);
+        byte[] bytes = Encoding.UTF8.GetBytes(message + "\n");
         await stream.WriteAsync(bytes);
     }
-    public void StartListenUser(string userName)
+    public async Task StartListenUser(string userName)
     {
-        Console.WriteLine("StartListenUserListen");
-   
             while (true)
             {
                 var stream = clients[userName].GetStream();
+                var reader = new StreamReader(stream);
+                string message = await reader.ReadLineAsync();
+                CooperativeTimerRequest request = JsonSerializer.Deserialize<CooperativeTimerRequest>(message);
 
-                // буфер для входящих данных
-                var response = new List<byte>();
-                int bytesRead = 10;
-
-                // считываем данные до конечного символа
-                while ((bytesRead = stream.ReadByte()) != '\n')
-                {
-                    // добавляем в буфер
-                    response.Add((byte)bytesRead);
-                }
-                var word = Encoding.UTF8.GetString(response.ToArray());
-                Console.WriteLine($"Client {userName} send message {word}");
-                if (word == "END\n")
+                MessageResending(request);
+               // Console.WriteLine($"Client {userName} send message {message}");
+                Console.WriteLine($"User {userName}, message {request.Description}");        
+                if (message == "END\n")
                     break;
-                response.Clear();
             }
      
     }

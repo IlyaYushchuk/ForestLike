@@ -50,9 +50,21 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Cryptography.KeyDerivation": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.19.6, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.9.172, )"
             }
           },
           "imports": [

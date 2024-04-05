@@ -1,14 +1,14 @@
 ﻿using ForestLike.Entities;
-using Timer = System.Timers.Timer;
+using EmbededTimer = System.Timers.Timer;
 
 namespace ForestLike.TimeCounters;
 
 public class StopWatch: ITimeCounter
 {
-    protected TimeSpan _time;
-    protected string _theme = "";
+    protected TimeSpan time;
+    protected string theme = "";
 
-    protected Timer everySecTimer = new Timer(new TimeSpan(0, 0, 1));
+    protected EmbededTimer everySecTimer = new EmbededTimer(new TimeSpan(0, 0, 1));
     protected TimeSpan currTime;
 
     protected Record currRecord = new Record();
@@ -18,20 +18,27 @@ public class StopWatch: ITimeCounter
     public event Action<TimeSpan> TimerTick;
     public StopWatch()
      {
+        currRecord.Type = TimeCounterType.StopWatch;
         everySecTimer.AutoReset = true;
         everySecTimer.Elapsed += (s, e) =>
         {
-            TimerTick?.Invoke(currTime);
             currTime = currTime.Add(new TimeSpan(0, 0, 1));
+            TimerTick?.Invoke(currTime);
         };
      }
 
     public void SetTheme(string theme)
     {
-        _theme = theme;
-        currRecord.Theme = _theme;
+        this.theme = theme;
+        currRecord.Theme = this.theme;
     }
+
     public void StartTime()
+    {
+        startTime();
+      //  Notification?.Invoke("Stopwatch started");
+    }
+    protected void startTime()
     {
         currRecord.StartDate = DateTime.Now;
 
@@ -41,7 +48,13 @@ public class StopWatch: ITimeCounter
         ActivityObserver.GetInstance().StartObserveTimer();
 
     }
+
     public void StopTime()
+    {
+        stopTime();
+        Notification?.Invoke("You stoped stopwatch. Congratulations");
+    }
+    protected void stopTime()
     {
         currRecord.IsFailed = false;
         currRecord.FailedTime = new TimeSpan(0,0,0);
@@ -49,7 +62,6 @@ public class StopWatch: ITimeCounter
 
         everySecTimer.Stop();
         ActivityObserver.GetInstance().StopObserveTimer();
-        Notification?.Invoke("You stoped stopwatch. Congratulations");
     }
 
     public void SetEasyMode()
