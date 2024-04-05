@@ -31,7 +31,7 @@ public class ActivityObserver
         var hwnd = GetForegroundWindow();
         allowedApps.Add(Process.GetProcessById(GetWindowProcessID(hwnd)).Id);
         Process process = Process.GetProcessById(GetWindowProcessID(hwnd));
-        Console.WriteLine("Process: {0} ID: {1} ", process.ProcessName, process.Id);
+       // Console.WriteLine("Process: {0} ID: {1} ", process.ProcessName, process.Id);
     }
 
     public static ActivityObserver GetInstance()

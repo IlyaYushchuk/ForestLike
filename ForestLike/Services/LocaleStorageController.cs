@@ -1,14 +1,16 @@
-﻿using ForestLike.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ForestLike.Entities;      
+using SQLite ;
 
 namespace ForestLike.Services;
 
 public class LocaleStorageController : IStorageController
 {
+    SQLiteConnection connection;
+    public LocaleStorageController()
+    {
+        connection = new SQLiteConnection(Path.Combine(Directory.GetCurrentDirectory(), "MyDB.db"));
+     
+    }
     public Record DeserializeRecord(string record)
     {
         throw new NotImplementedException();
@@ -17,26 +19,20 @@ public class LocaleStorageController : IStorageController
     {
         throw new NotImplementedException();
     }
-    public void RegNewUser(string login, string password)
+    public void UploadNewUser(User user)
     {
-        throw new NotImplementedException();
-
+        connection.Insert(user);
     }
     public IEnumerable<Record> GetRecordsOfUser(int userId)
     {
-
-        throw new NotImplementedException();
+        return connection.Table<Record>().Where(r => r.UserId == userId).ToList();
     }
 
-    public User GetUserInfo(string login, string password)
+    public User GetUserInfo(User user)
     {
-        throw new NotImplementedException();
+        return connection.Table<User>().Where(u => u.Login == user.Login && u.HashPassword == user.HashPassword).ToList()[0];
     }
 
-    public string GetUserIpByName(string name)
-    {
-        throw new NotImplementedException();
-    }
 
     public string SerializeRecord(Record record)
     {
@@ -50,6 +46,12 @@ public class LocaleStorageController : IStorageController
 
     public void UploadNewRecords(int userId, IEnumerable<Record> newRecords)
     {
-        throw new NotImplementedException();
+        List<Record> records = newRecords.ToList();
+        foreach (Record record in records) 
+        {
+            record.UserId = userId;
+            connection.Insert(record);
+        }
     }
+
 }
