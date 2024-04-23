@@ -7,8 +7,20 @@
       "RelativeMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|d:\\253505\\4sem\\oop\\forestlike\\server\\server\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|solutionrelative:server\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|d:\\253505\\4sem\\oop\\forestlike\\server\\server\\entities\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|solutionrelative:server\\entities\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|d:\\253505\\4sem\\oop\\forestlike\\server\\server\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|solutionrelative:server\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|d:\\253505\\4sem\\oop\\forestlike\\server\\server\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|solutionrelative:server\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|d:\\253505\\4sem\\oop\\forestlike\\server\\server\\forestlikeserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|solutionrelative:server\\forestlikeserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|d:\\253505\\4sem\\oop\\forestlike\\server\\server\\cooperativetimerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,8 +33,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 52,
-          "SelectedChildIndex": 35,
+          "DockedWidth": 29,
+          "SelectedChildIndex": 34,
           "Children": [
             {
               "$type": "Bookmark",
@@ -158,29 +170,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CooperativeTimerRequest.cs",
-              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\CooperativeTimerRequest.cs",
-              "RelativeDocumentMoniker": "Server\\CooperativeTimerRequest.cs",
-              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\CooperativeTimerRequest.cs",
-              "RelativeToolTip": "Server\\CooperativeTimerRequest.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "Server\\ApplicationDBContext.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\ApplicationDBContext.cs",
+              "RelativeToolTip": "Server\\ApplicationDBContext.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwAwAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T09:28:00.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Server.cs",
-              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\Server.cs",
-              "RelativeDocumentMoniker": "Server\\Server.cs",
-              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\Server.cs",
-              "RelativeToolTip": "Server\\Server.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAkwFQAAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T19:06:34.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T15:48:27.383Z"
             },
             {
               "$type": "Document",
@@ -190,10 +188,58 @@
               "RelativeDocumentMoniker": "Server\\Program.cs",
               "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\Program.cs",
               "RelativeToolTip": "Server\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T19:06:20.889Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Server\\Entities\\User.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\Entities\\User.cs",
+              "RelativeToolTip": "Server\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T15:20:53.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ForestLikeServer.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\ForestLikeServer.cs",
+              "RelativeDocumentMoniker": "Server\\ForestLikeServer.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\ForestLikeServer.cs",
+              "RelativeToolTip": "Server\\ForestLikeServer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T19:06:34.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Record.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\Entities\\Record.cs",
+              "RelativeDocumentMoniker": "Server\\Entities\\Record.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\Entities\\Record.cs",
+              "RelativeToolTip": "Server\\Entities\\Record.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T15:21:01.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CooperativeTimerRequest.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\CooperativeTimerRequest.cs",
+              "RelativeDocumentMoniker": "Server\\CooperativeTimerRequest.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\CooperativeTimerRequest.cs",
+              "RelativeToolTip": "Server\\CooperativeTimerRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T09:28:00.143Z"
             }
           ]
         }
