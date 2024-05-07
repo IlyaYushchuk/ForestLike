@@ -1,5 +1,5 @@
 ﻿using ForestLike.ClientServerLogic;
-using ForestLike.Entities;
+using Serializer.Entities;
 using ForestLike.Services;
 using System.Runtime.CompilerServices;
 using Timer = System.Timers.Timer;
@@ -14,11 +14,11 @@ public class CooperativeTimer:Timer
     //TODO event cant be inherited. I think so
     public new event Action<string> Notification;
     public new event Action<TimeSpan> TimerTick;
-    public CooperativeTimer(string name):base()
+    public CooperativeTimer(Client client):base()
     {
 
         currRecord.Type = TimeCounterType.CooperativeTimer;
-        cooperativeTimerService = new CooperativeTimerService(name);
+        cooperativeTimerService = new CooperativeTimerService(client);
         cooperativeTimerService.ServerCommandEvent += CommandHandler;
 
 
@@ -83,7 +83,7 @@ public class CooperativeTimer:Timer
         callSended = true;
         CooperativeTimerRequest cooperativeTimerRequest = new CooperativeTimerRequest
         {
-            UserName = userName,
+            ReceiverName = userName,
             Time = time,
             Theme = theme,
             Description = description

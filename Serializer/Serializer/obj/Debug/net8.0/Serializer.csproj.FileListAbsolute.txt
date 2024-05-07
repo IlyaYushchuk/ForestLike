@@ -1,0 +1,12 @@
+D:\253505\4sem\oop\ForestLike\Serializer\Serializer\bin\Debug\net8.0\Serializer.deps.json
+D:\253505\4sem\oop\ForestLike\Serializer\Serializer\bin\Debug\net8.0\Serializer.dll
+D:\253505\4sem\oop\ForestLike\Serializer\Serializer\bin\Debug\net8.0\Serializer.pdb
+D:\253505\4sem\oop\ForestLike\Serializer\Serializer\obj\Debug\net8.0\Serializer.GeneratedMSBuildEditorConfig.editorconfig
+D:\253505\4sem\oop\ForestLike\Serializer\Serializer\obj\Debug\net8.0\Serializer.AssemblyInfoInputs.cache
+D:\253505\4sem\oop\ForestLike\Serializer\Serializer\obj\Debug\net8.0\Serializer.AssemblyInfo.cs
+D:\253505\4sem\oop\ForestLike\Serializer\Serializer\obj\Debug\net8.0\Serializer.csproj.CoreCompileInputs.cache
+D:\253505\4sem\oop\ForestLike\Serializer\Serializer\obj\Debug\net8.0\Serializer.sourcelink.json
+D:\253505\4sem\oop\ForestLike\Serializer\Serializer\obj\Debug\net8.0\Serializer.dll
+D:\253505\4sem\oop\ForestLike\Serializer\Serializer\obj\Debug\net8.0\refint\Serializer.dll
+D:\253505\4sem\oop\ForestLike\Serializer\Serializer\obj\Debug\net8.0\Serializer.pdb
+D:\253505\4sem\oop\ForestLike\Serializer\Serializer\obj\Debug\net8.0\ref\Serializer.dll

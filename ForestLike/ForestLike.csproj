@@ -12,7 +12,14 @@
     <PackageReference Include="Microsoft.AspNetCore.Cryptography.KeyDerivation" Version="8.0.3" />
     <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.3" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.6" />
+    <PackageReference Include="MongoDB.Driver" Version="2.25.0" />
     <PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Serializer">
+      <HintPath>..\Serializer\Serializer\bin\Debug\net8.0\Serializer.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

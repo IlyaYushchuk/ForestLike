@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Server.Entities;
+using Serializer.Entities;
 
 namespace Server;
 

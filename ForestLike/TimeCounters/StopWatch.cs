@@ -1,4 +1,4 @@
-﻿using ForestLike.Entities;
+﻿using Serializer.Entities;
 using EmbededTimer = System.Timers.Timer;
 
 namespace ForestLike.TimeCounters;

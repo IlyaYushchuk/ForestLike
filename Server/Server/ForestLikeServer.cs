@@ -1,93 +1,100 @@
-﻿
-using System.Net.Sockets;
+﻿using System.Net.Sockets;
 using System.Net;
-using System.Net.Http;
 using System.Text;
-using System.Text.Json;
-using System.Xml.Linq;
-
 
 namespace ServerNS;
 
 public class ForestLikeServer
 {
-    Dictionary<string, TcpClient> clients = new Dictionary<string, TcpClient>();
+    TcpListener serverAPI;
     TcpListener server;
+    public event Action<TcpClient,string> UserMessageEventAPI;
+    public event Action<TcpClient, string> UserMessageEvent;
+    public event Action<TcpClient, TcpClient> UserConnectionEvent;
+
     public ForestLikeServer()
     { 
         IPAddress localAddr = IPAddress.Parse("127.0.0.1");
-        IPEndPoint ipLocalEndPoint = new IPEndPoint(localAddr, 8888);
+        IPEndPoint ipLocalEndPointAPI = new IPEndPoint(localAddr, 8888);
+        IPEndPoint ipLocalEndPoint = new IPEndPoint(IPAddress.Parse("127.0.0.2"), 8888);
+
+        serverAPI = new TcpListener(ipLocalEndPointAPI);
         server = new TcpListener(ipLocalEndPoint);
     }
-
-    public IEnumerable<string> GetAllClientsNames()
-    {
-        return clients.Keys;
-    }
-
-    private void MessageResending(CooperativeTimerRequest request)
-    {
-        SendMessageToUserAsync(request.UserName, JsonSerializer.Serialize(request));
-    }
-
-
     public void StartServer()
     {
-        Console.WriteLine("Start");
+        serverAPI.Start();
         server.Start();
         Task.Run(async () =>
         {
             while (true)
             {
                 var tcpClient = await server.AcceptTcpClientAsync();
-
-                Console.WriteLine($"Входящее подключение: {tcpClient.Client.RemoteEndPoint}");
+                var tcpClientAPI = await serverAPI.AcceptTcpClientAsync();
                 
-                string userName = ListenUserName(tcpClient).Result;
-                StartListenUser(userName);
+                Console.WriteLine($"API: {tcpClientAPI.Client.RemoteEndPoint}");
+
+                Console.WriteLine($"Client: {tcpClient.Client.RemoteEndPoint}");
+
+                UserConnectionEvent?.Invoke(tcpClientAPI, tcpClient);
+
+                Task.Run( async ()=> StartListenUser(tcpClient));
+                Task.Run(async () => StartListenUserAPI(tcpClientAPI));
             }
         });
-        Console.WriteLine("End");
     }
-    public async Task<string> ListenUserName(TcpClient tcpClient)
+    public async Task StartListenUser(TcpClient tcpClient)
     {
         var stream = tcpClient.GetStream();
         var reader = new StreamReader(stream);
-        string name = await reader.ReadLineAsync();
-        Console.WriteLine($"User name {name}, tcpClient {tcpClient.Client.RemoteEndPoint}");
-        clients.Add(name, tcpClient);
-        return name;
-    }
+        string message;
 
-    public async Task SendMessageToUserAsync(string userName, string message)
-    {
-        if (!clients.ContainsKey(userName))
+        while (true)
         {
-            Console.WriteLine("User not found");
-            return;
+            message = await reader.ReadLineAsync();
+            UserMessageEvent?.Invoke(tcpClient, message);
+
+           // Console.WriteLine($"User {tcpClient.Client.RemoteEndPoint}, message |{message}|");
+            if (message == "END")
+            {
+                Console.WriteLine("Ending");
+                break;
+            }
         }
 
-        var stream = clients[userName].GetStream();
+    }
+    public async Task StartListenUserAPI(TcpClient tcpClient)
+    {
+        var stream = tcpClient.GetStream();
+        var reader = new StreamReader(stream);
+        string message;
+
+        while (true)
+        {
+            message = await reader.ReadLineAsync();
+            UserMessageEventAPI?.Invoke(tcpClient, message);
+
+            // Console.WriteLine($"User {tcpClient.Client.RemoteEndPoint}, message |{message}|");
+            if (message == "END")
+            {
+                Console.WriteLine("Ending");
+                break;
+            }
+        }
+
+    }
+    public async Task<string?> GetMessageFromUser(TcpClient tcpClient)
+    {
+        var stream = tcpClient.GetStream();
+        var reader = new StreamReader(stream);
+        return await reader.ReadLineAsync();
+    }
+
+    public async Task SendMessageToUser(TcpClient client, string message)
+    {
+        var stream = client.GetStream();
         byte[] bytes = Encoding.UTF8.GetBytes(message + "\n");
         await stream.WriteAsync(bytes);
     }
-    public async Task StartListenUser(string userName)
-    {
-            while (true)
-            {
-                var stream = clients[userName].GetStream();
-                var reader = new StreamReader(stream);
-                string message = await reader.ReadLineAsync();
-                CooperativeTimerRequest request = JsonSerializer.Deserialize<CooperativeTimerRequest>(message);
-
-                MessageResending(request);
-               // Console.WriteLine($"Client {userName} send message {message}");
-                Console.WriteLine($"User {userName}, message {request.Description}");        
-                if (message == "END\n")
-                    break;
-            }
-     
-    }
-     
 
 }

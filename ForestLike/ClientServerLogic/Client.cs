@@ -7,29 +7,27 @@ namespace ForestLike.ClientServerLogic;
 
 public class Client
 {
+    TcpClient clientAPI;
     TcpClient client;
     CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
 
+    
     //TODO replace ServerConnectionEvent on Action<TcpState>
     public event Action<string> ServerConnectionEvent;
-    public event Action<byte[]> ServerDataReceiveEvent;
+    public event Action<string> ServerDataReceiveEvent;
 
-    public Client(string name)
+    public Client()
     {
+        clientAPI = new TcpClient();
         client = new TcpClient();
+
         //todo restuct class constructor
-        
-        ConnectClientToServer(IPEndPoint.Parse("127.0.0.1:8888"));
-       
-        SendToServerName(name);
-        StartListininServerAsync(cancellationTokenSource.Token);
+        ConnectClientToServer(clientAPI, IPEndPoint.Parse("127.0.0.1:8888"));
+        ConnectClientToServer(client, IPEndPoint.Parse("127.0.0.2:8888"));
+        StartListiningServerAsync(client, cancellationTokenSource.Token);
     }
 
-    public void SendToServerName(string name)
-    {
-        SendDataToServer(Encoding.UTF8.GetBytes(name + "\n"));
-    }
-    public async void ConnectClientToServer(IPEndPoint remoteEp)
+    private async void ConnectClientToServer(TcpClient client, IPEndPoint remoteEp)
     {
         try
         {
@@ -45,11 +43,11 @@ public class Client
     public void DisconnectClientToServer()
     {
         cancellationTokenSource.Cancel();
-        client.Close();
+        clientAPI.Close();
         ServerConnectionEvent?.Invoke("Server disconnected");
     }
 
-    public void StartListininServerAsync(CancellationToken cancellationToken)
+    private void StartListiningServerAsync(TcpClient client, CancellationToken cancellationToken)
     {
         Task.Run(async () =>
         {
@@ -57,8 +55,9 @@ public class Client
             {
                 var stream = client.GetStream();
                 var reader = new StreamReader(stream);
-                var data = await reader.ReadLineAsync();
-                ServerDataReceiveEvent?.Invoke(Encoding.UTF8.GetBytes(data));
+                string? data = await reader.ReadLineAsync();
+                if (data != null)
+                    ServerDataReceiveEvent?.Invoke(data);
              
                 //todo cancellation token
                 if (cancellationToken.IsCancellationRequested)
@@ -68,9 +67,29 @@ public class Client
         });
     }
 
-    public async void SendDataToServer(byte[] data)
+    public async Task<string?> GetDataFromServer()
+    {   
+        var stream = clientAPI.GetStream();
+        var reader = new StreamReader(stream);
+        return await reader.ReadLineAsync();
+    }
+
+    public async Task SendDataToServer(string message)
+    {
+        var inputStream = clientAPI.GetStream();
+        await inputStream.WriteAsync(Encoding.UTF8.GetBytes(message+"\n"));
+    }
+
+    public async Task SendCallToServer(string message)
     {
         var inputStream = client.GetStream();
-        await inputStream.WriteAsync(data);
+        await inputStream.WriteAsync(Encoding.UTF8.GetBytes(message + "\n"));
+    }
+
+    public async Task<string?> GetCallFromServer()
+    {
+        var stream = client.GetStream();
+        var reader = new StreamReader(stream);
+        return await reader.ReadLineAsync();
     }
 }

@@ -1,0 +1,1 @@
+<Record xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Time>PT1H30M</Time><Type>Timer</Type><RecordId>4</RecordId><UserId>23</UserId><Theme>Test record 4</Theme><StartDate>2024-05-07T13:10:18.2164742+03:00</StartDate><IsFailed>true</IsFailed><FailedTime>PT1H29M59S</FailedTime></Record>

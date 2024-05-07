@@ -3,52 +3,20 @@
   "WorkspaceRootPath": "D:\\253505\\4sem\\oop\\ForestLike\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\clientserverlogic\\serverrequestsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\clientserverlogic\\serverrequestsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\services\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\services\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\entities\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\entities\\record.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\services\\cooperativetimerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\services\\cooperativetimerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\clientserverlogic\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\clientserverlogic\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\clientserverlogic\\cooperativetimerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\clientserverlogic\\cooperativetimerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\services\\localestoragecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\services\\localestoragecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\services\\istoragecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\services\\istoragecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\timecounters\\stopwatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\timecounters\\stopwatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\timecounters\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\timecounters\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\activityobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\activityobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\services\\cooperativetimerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|solutionrelative:forestlike\\services\\cooperativetimerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{402042FD-AFA8-4DA0-959A-37708297E444}|ForestLike\\ForestLike.csproj|d:\\253505\\4sem\\oop\\forestlike\\forestlike\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,8 +29,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 29,
-          "SelectedChildIndex": 39,
+          "DockedWidth": 30,
+          "SelectedChildIndex": 35,
           "Children": [
             {
               "$type": "Bookmark",
@@ -199,159 +167,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Record.cs",
-              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Entities\\Record.cs",
-              "RelativeDocumentMoniker": "ForestLike\\Entities\\Record.cs",
-              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Entities\\Record.cs",
-              "RelativeToolTip": "ForestLike\\Entities\\Record.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T15:22:16.263Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "ForestLike\\Entities\\User.cs",
-              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Entities\\User.cs",
-              "RelativeToolTip": "ForestLike\\Entities\\User.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T18:04:46.888Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LocaleStorageController.cs",
-              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Services\\LocaleStorageController.cs",
-              "RelativeDocumentMoniker": "ForestLike\\Services\\LocaleStorageController.cs",
-              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Services\\LocaleStorageController.cs",
-              "RelativeToolTip": "ForestLike\\Services\\LocaleStorageController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T18:04:24.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IStorageController.cs",
-              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Services\\IStorageController.cs",
-              "RelativeDocumentMoniker": "ForestLike\\Services\\IStorageController.cs",
-              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Services\\IStorageController.cs",
-              "RelativeToolTip": "ForestLike\\Services\\IStorageController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T22:28:54.883Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CooperativeTimerRequest.cs",
-              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ClientServerLogic\\CooperativeTimerRequest.cs",
-              "RelativeDocumentMoniker": "ForestLike\\ClientServerLogic\\CooperativeTimerRequest.cs",
-              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ClientServerLogic\\CooperativeTimerRequest.cs",
-              "RelativeToolTip": "ForestLike\\ClientServerLogic\\CooperativeTimerRequest.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T09:41:31.09Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthorizationService.cs",
-              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Services\\AuthorizationService.cs",
-              "RelativeDocumentMoniker": "ForestLike\\Services\\AuthorizationService.cs",
-              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Services\\AuthorizationService.cs",
-              "RelativeToolTip": "ForestLike\\Services\\AuthorizationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T09:43:47.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Program.cs",
-              "RelativeDocumentMoniker": "ForestLike\\Program.cs",
-              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Program.cs",
-              "RelativeToolTip": "ForestLike\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T21:55:03.633Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Client.cs",
               "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ClientServerLogic\\Client.cs",
               "RelativeDocumentMoniker": "ForestLike\\ClientServerLogic\\Client.cs",
               "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ClientServerLogic\\Client.cs",
               "RelativeToolTip": "ForestLike\\ClientServerLogic\\Client.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAowDIAAAAAAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAkwFUAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T21:16:57.531Z"
+              "WhenOpened": "2024-05-07T09:07:06.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Program.cs",
+              "RelativeDocumentMoniker": "ForestLike\\Program.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Program.cs",
+              "RelativeToolTip": "ForestLike\\Program.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAiwE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T08:02:03.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServerRequestSender.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ClientServerLogic\\ServerRequestSender.cs",
+              "RelativeDocumentMoniker": "ForestLike\\ClientServerLogic\\ServerRequestSender.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ClientServerLogic\\ServerRequestSender.cs",
+              "RelativeToolTip": "ForestLike\\ClientServerLogic\\ServerRequestSender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T18:05:06.447Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CooperativeTimerService.cs",
-              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Services\\CooperativeTimerService.cs",
-              "RelativeDocumentMoniker": "ForestLike\\Services\\CooperativeTimerService.cs",
-              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Services\\CooperativeTimerService.cs",
-              "RelativeToolTip": "ForestLike\\Services\\CooperativeTimerService.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwAoAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T11:31:35.018Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Timer.cs",
-              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\TimeCounters\\Timer.cs",
-              "RelativeDocumentMoniker": "ForestLike\\TimeCounters\\Timer.cs",
-              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\TimeCounters\\Timer.cs",
-              "RelativeToolTip": "ForestLike\\TimeCounters\\Timer.cs",
-              "ViewState": "AQIAAGkAAAAAAAAAAAAYwHwAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T11:23:24.356Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ActivityObserver.cs",
-              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ActivityObserver.cs",
-              "RelativeDocumentMoniker": "ForestLike\\ActivityObserver.cs",
-              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\ActivityObserver.cs",
-              "RelativeToolTip": "ForestLike\\ActivityObserver.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAYwCEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T21:55:09.376Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StopWatch.cs",
-              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\TimeCounters\\StopWatch.cs",
-              "RelativeDocumentMoniker": "ForestLike\\TimeCounters\\StopWatch.cs",
-              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\TimeCounters\\StopWatch.cs",
-              "RelativeToolTip": "ForestLike\\TimeCounters\\StopWatch.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAgwDgAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T17:19:03.638Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "Statistic.cs",
               "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Statistic.cs",
               "RelativeDocumentMoniker": "ForestLike\\Statistic.cs",
               "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Statistic.cs",
               "RelativeToolTip": "ForestLike\\Statistic.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T21:55:27.888Z"
+              "WhenOpened": "2024-05-07T00:17:26.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CooperativeTimerService.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Services\\CooperativeTimerService.cs",
+              "RelativeDocumentMoniker": "ForestLike\\Services\\CooperativeTimerService.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\ForestLike\\Services\\CooperativeTimerService.cs",
+              "RelativeToolTip": "ForestLike\\Services\\CooperativeTimerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T00:16:39.681Z"
             }
           ]
         }

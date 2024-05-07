@@ -120,3 +120,8 @@ D:\253505\4sem\oop\ForestLike\Server\Server\bin\Debug\net8.0\runtimes\win-arm64\
 D:\253505\4sem\oop\ForestLike\Server\Server\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 D:\253505\4sem\oop\ForestLike\Server\Server\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 D:\253505\4sem\oop\ForestLike\Server\Server\obj\Debug\net8.0\Server.csproj.Up2Date
+D:\253505\4sem\oop\ForestLike\Server\Server\bin\Debug\net8.0\Npgsql.dll
+D:\253505\4sem\oop\ForestLike\Server\Server\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\253505\4sem\oop\ForestLike\Server\Server\bin\Debug\net8.0\SQLite-net.dll
+D:\253505\4sem\oop\ForestLike\Server\Server\bin\Debug\net8.0\Serializer.dll
+D:\253505\4sem\oop\ForestLike\Server\Server\bin\Debug\net8.0\Serializer.pdb

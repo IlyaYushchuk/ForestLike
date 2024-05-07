@@ -62,6 +62,10 @@
               "target": "Package",
               "version": "[1.19.6, )"
             },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            },
             "sqlite-net-pcl": {
               "target": "Package",
               "version": "[1.9.172, )"

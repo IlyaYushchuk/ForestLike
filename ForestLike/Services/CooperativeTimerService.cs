@@ -5,6 +5,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using ForestLike.ClientServerLogic;
+using Serializer.Entities;
 
 namespace ForestLike.Services;
 
@@ -12,16 +13,16 @@ public class CooperativeTimerService
 {
     Client client;
     public event Action<string> ServerCommandEvent;
-    public CooperativeTimerService(string name)
+    public CooperativeTimerService(Client client)
     {
-       client = new Client(name);
-       //client.ServerDataReceiveEvent += PrintDataFromServer;
-       client.ServerDataReceiveEvent += CommandHandler;
+        this.client = client;
+        //clientAPI.ServerDataReceiveEvent += PrintDataFromServer;
+        this.client.ServerDataReceiveEvent += CommandHandler;
     }
 
-    private void CommandHandler(byte[] data)
+    private void CommandHandler(string data)
     {
-        string message = Encoding.UTF8.GetString(data);
+        string message = data;
         if (message == "/YES")
         {
             ServerCommandEvent?.Invoke("/YES");
@@ -50,7 +51,7 @@ public class CooperativeTimerService
     public void CallUserCooperativeTimer(CooperativeTimerRequest cooperativeTimerRequest)
     {
         string serializedRequest = JsonSerializer.Serialize(cooperativeTimerRequest);
-        byte[] bytes = Encoding.UTF8.GetBytes(serializedRequest + "\n");
-        client.SendDataToServer(bytes);
+
+        client.SendDataToServer(serializedRequest);
     }
 }
