@@ -10,8 +10,12 @@ namespace ForestLike.TimeCounters;
 public interface ITimeCounter
 {
     public void StartTime();
-    public void SetTheme(string theme);
+    public string Theme {  get; set; }
+    public TimeSpan Time { get; set; }
     public void StopTime();
+
+    public event Action<string> Notification;
+    public event Action<TimeSpan> TimerTick;
     public Record GetRecord();
 
 }

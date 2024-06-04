@@ -7,8 +7,24 @@
       "RelativeMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|solutionrelative:server\\servercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|d:\\253505\\4sem\\oop\\forestlike\\server\\server\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|solutionrelative:server\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|d:\\253505\\4sem\\oop\\forestlike\\server\\server\\forestlikeserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|solutionrelative:server\\forestlikeserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|d:\\253505\\4sem\\oop\\forestlike\\server\\server\\dbservices\\filedbimmitation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|solutionrelative:server\\dbservices\\filedbimmitation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|d:\\253505\\4sem\\oop\\forestlike\\server\\server\\dbservices\\istoragecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|solutionrelative:server\\dbservices\\istoragecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|d:\\253505\\4sem\\oop\\forestlike\\server\\server\\dbservices\\localestoragecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|solutionrelative:server\\dbservices\\localestoragecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{346B080C-0B11-407E-8931-30DE87D16B95}|Server\\Server.csproj|d:\\253505\\4sem\\oop\\forestlike\\server\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -160,8 +176,68 @@
         },
         {
           "DockedWidth": 26,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IStorageController.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\DBServices\\IStorageController.cs",
+              "RelativeDocumentMoniker": "Server\\DBServices\\IStorageController.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\DBServices\\IStorageController.cs",
+              "RelativeToolTip": "Server\\DBServices\\IStorageController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T17:52:44.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "Server\\ApplicationDBContext.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\ApplicationDBContext.cs",
+              "RelativeToolTip": "Server\\ApplicationDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T17:52:38.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ForestLikeServer.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\ForestLikeServer.cs",
+              "RelativeDocumentMoniker": "Server\\ForestLikeServer.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\ForestLikeServer.cs",
+              "RelativeToolTip": "Server\\ForestLikeServer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T19:06:34.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileDBImmitation.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\DBServices\\FileDBImmitation.cs",
+              "RelativeDocumentMoniker": "Server\\DBServices\\FileDBImmitation.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\DBServices\\FileDBImmitation.cs",
+              "RelativeToolTip": "Server\\DBServices\\FileDBImmitation.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAA1wEAAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T17:52:43.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LocaleStorageController.cs",
+              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\DBServices\\LocaleStorageController.cs",
+              "RelativeDocumentMoniker": "Server\\DBServices\\LocaleStorageController.cs",
+              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\DBServices\\LocaleStorageController.cs",
+              "RelativeToolTip": "Server\\DBServices\\LocaleStorageController.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAoAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T17:52:45.147Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -170,32 +246,20 @@
               "RelativeDocumentMoniker": "Server\\ServerCommandHandler.cs",
               "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\ServerCommandHandler.cs",
               "RelativeToolTip": "Server\\ServerCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFsAAABGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMwAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-03T00:08:13.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ForestLikeServer.cs",
-              "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\ForestLikeServer.cs",
-              "RelativeDocumentMoniker": "Server\\ForestLikeServer.cs",
-              "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\ForestLikeServer.cs",
-              "RelativeToolTip": "Server\\ForestLikeServer.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAmwFwAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T19:06:34.933Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\Program.cs",
               "RelativeDocumentMoniker": "Server\\Program.cs",
               "ToolTip": "D:\\253505\\4sem\\oop\\ForestLike\\Server\\Server\\Program.cs",
               "RelativeToolTip": "Server\\Program.cs",
-              "ViewState": "AQIAAIAAAAAAAAAAAAAUwJEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-03T00:41:21.076Z"
             }

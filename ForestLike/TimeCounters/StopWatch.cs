@@ -5,13 +5,15 @@ namespace ForestLike.TimeCounters;
 
 public class StopWatch: ITimeCounter
 {
-    protected TimeSpan time;
-    protected string theme = "";
+    
 
     protected EmbededTimer everySecTimer = new EmbededTimer(new TimeSpan(0, 0, 1));
     protected TimeSpan currTime;
 
     protected Record currRecord = new Record();
+
+    public string Theme { get; set; }
+    public TimeSpan Time { get; set; }
 
     //TODO rename event
     public event Action<string> Notification;
@@ -27,12 +29,7 @@ public class StopWatch: ITimeCounter
         };
      }
 
-    public void SetTheme(string theme)
-    {
-        this.theme = theme;
-        currRecord.Theme = this.theme;
-    }
-
+  
     public void StartTime()
     {
         startTime();
@@ -41,7 +38,7 @@ public class StopWatch: ITimeCounter
     protected void startTime()
     {
         currRecord.StartDate = DateTime.Now;
-
+        currRecord.Theme = Theme;
         currTime = new TimeSpan(0, 0, 0);
 
         everySecTimer.Start();
@@ -59,6 +56,7 @@ public class StopWatch: ITimeCounter
         currRecord.IsFailed = false;
         currRecord.FailedTime = new TimeSpan(0,0,0);
         currRecord.Time = currTime;
+        
 
         everySecTimer.Stop();
         ActivityObserver.GetInstance().StopObserveTimer();

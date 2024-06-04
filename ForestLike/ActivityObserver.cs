@@ -1,5 +1,6 @@
 ﻿using System.Diagnostics;
 using System.Runtime.InteropServices;
+using System.Text;
 
 namespace ForestLike;
 
@@ -7,19 +8,33 @@ using Timer = System.Timers.Timer;
 
 public class ActivityObserver
 {
-    //TODO temporary list but may be it will be replaced
-    List<int> allowedApps = new List<int>();
     [DllImport("user32.dll")]
     static extern int GetForegroundWindow(); 
     [DllImport("user32")]
     private static extern UInt32 GetWindowThreadProcessId(Int32 hWnd, out Int32 lpdwProcessId);
+    [DllImport("user32.dll")]
+    private static extern int EnumWindows(EnumWindowsProc enumProc, int lParam);
+
+    [DllImport("user32.dll")]
+    private static extern bool IsWindowVisible(IntPtr hWnd);
+
+    [DllImport("user32.dll", CharSet = CharSet.Auto, SetLastError = true)]
+    static extern int GetWindowText(IntPtr hWnd, System.Text.StringBuilder lpString, int nMaxCount);
+    [DllImport("user32.dll", SetLastError = true, CharSet = CharSet.Auto)]
+    static extern int GetWindowTextLength(IntPtr hWnd);
+
+
+    delegate bool EnumWindowsProc(IntPtr hWnd, int lParam);
+
+
 
     private static ActivityObserver instance;
     private Timer activityCheckTimer;
 
     public event Action NotAllowedAppUsed;
+    public List<string> allowedApps = new List<string>();
 
-    
+
     private ActivityObserver()
     {
         activityCheckTimer = new Timer(new TimeSpan(0,0,5));
@@ -28,12 +43,26 @@ public class ActivityObserver
         {
             Observe();
         };
-        var hwnd = GetForegroundWindow();
-        allowedApps.Add(Process.GetProcessById(GetWindowProcessID(hwnd)).Id);
-        Process process = Process.GetProcessById(GetWindowProcessID(hwnd));
-       // Console.WriteLine("Process: {0} ID: {1} ", process.ProcessName, process.Id);
+        var currWind = GetActiveWindowTitle();
+        allowedApps.Add(currWind);
     }
+    public string GetActiveWindowTitle()
+    {
+        IntPtr handle = GetForegroundWindow();
+        if (handle == IntPtr.Zero)
+        {
+            return null;
+        }
 
+        StringBuilder sb = new StringBuilder(256);
+        int length = GetWindowText(handle, sb, sb.Capacity);
+        if (length > 0)
+        {
+            return sb.ToString();
+        }
+
+        return null;
+    }
     public static ActivityObserver GetInstance()
     {
         if (instance == null)
@@ -52,33 +81,46 @@ public class ActivityObserver
         activityCheckTimer.Stop();
     }
 
-    public IEnumerable<Process> GetAllOpenedWindows()
+    public IEnumerable<string> GetAllOpenedWindows()
     {
-        return Process.GetProcesses();
+        List<string> windowTitles = new List<string>();
+        EnumWindows(delegate (IntPtr hWnd, int lParam)
+        {
+            if (IsWindowVisible(hWnd))
+            {
+                int length = GetWindowTextLength(hWnd);
+                if (length > 0)
+                {
+                    var builder = new System.Text.StringBuilder(length + 1);
+                    GetWindowText(hWnd, builder, builder.Capacity);
+                    string title = builder.ToString();
+                    if (!string.IsNullOrEmpty(title))
+                    {
+                        windowTitles.Add(title);
+                    }
+                }
+            }
+            return true;
+        }, 0);
+        return windowTitles;
     }
 
     
     private void Observe()
     {
-        var currWind = GetForegroundWindow();
-        Process process = Process.GetProcessById(GetWindowProcessID(currWind));
-        if (!allowedApps.Contains(process.Id))
+        var currWind = GetActiveWindowTitle();
+        if (!allowedApps.Contains(currWind))
         { 
             NotAllowedAppUsed?.Invoke();
         }
     }
-    private Int32 GetWindowProcessID(Int32 hwnd)
+    
+    public void AddAllowedApp(string windName)
     {
-        Int32 pid = 1;
-        GetWindowThreadProcessId(hwnd, out pid);
-        return pid;
+        allowedApps.Add(windName);
     }
-    public void AddAllowedApp(Process process)
+    public void RemoveAllowedApp(string windName)
     {
-        allowedApps.Add(process.Id);
-    }
-    public void RemoveAllowedApp(Process process)
-    {
-        allowedApps.Remove(process.Id);
+        allowedApps.Remove(windName);
     }
 }

@@ -8,19 +8,15 @@ namespace ForestLike.TimeCounters;
 
 public class Timer : ITimeCounter
 {
-    protected TimeSpan time;
-    protected string theme = "";
+
+    public string Theme { get; set; }
+    public TimeSpan Time { get; set; }
 
     protected EmbededTimer timer = new EmbededTimer(new TimeSpan(0, 10, 0));
     protected EmbededTimer everySecTimer = new EmbededTimer(new TimeSpan(0, 0, 1));
     protected TimeSpan currTime;
 
-    //CancellationTokenSource cancellationTokenSource;
-    //CancellationToken cancellationToken;
-
     protected Record currRecord = new Record();
-
- 
 
     //TODO rename event
     public event Action<string> Notification;
@@ -35,9 +31,11 @@ public class Timer : ITimeCounter
             everySecTimer.Stop();
             Notification?.Invoke("Timer ended successfully. Congratulations!!!");
 
+            TimerTick?.Invoke(Time);
+            currRecord.Theme = Theme;
             currRecord.IsFailed = false;
             currRecord.FailedTime = new TimeSpan(0, 0, 0);
-            currRecord.Time = time;
+            currRecord.Time = Time;
 
             ActivityObserver.GetInstance().StopObserveTimer();
         };
@@ -52,14 +50,14 @@ public class Timer : ITimeCounter
 
     public void SetTheme(string theme)
     {
-        this.theme = theme;
-        currRecord.Theme = this.theme;
+        this.Theme = theme;
+        currRecord.Theme = this.Theme;
     }
     public void SetTime(TimeSpan time)
     {
-        this.time = time;
+        this.Time = time;
         timer.Interval = time.TotalMilliseconds;
-        currRecord.Time = this.time;
+        currRecord.Time = this.Time;
     }
 
     //TODO rename hard mode
@@ -72,6 +70,8 @@ public class Timer : ITimeCounter
     {
         currRecord.IsFailed = true;
         currRecord.FailedTime = currTime;
+
+        currRecord.Theme = Theme;
         everySecTimer.Stop();
         timer.Stop();
         Notification?.Invoke("Timer have been failed. Try again!!!");
@@ -92,6 +92,7 @@ public class Timer : ITimeCounter
 
     public virtual void StartTime()
     {
+        timer.Interval = Time.TotalMilliseconds; 
         Notification?.Invoke("Timer started");
         startTime();
     }
@@ -121,6 +122,8 @@ public class Timer : ITimeCounter
     {
         currRecord.IsFailed = true;
         currRecord.FailedTime = currTime;
+
+        currRecord.Theme = Theme;
 
         everySecTimer.Stop();
         timer.Stop();

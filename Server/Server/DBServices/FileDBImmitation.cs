@@ -62,7 +62,7 @@ public class FileDBImmitation : IStorageController
 
     public User GetUserInfo(User user)
     {
-        var selectedUser = users.FirstOrDefault(u => u.Login == user.Login && u.HashPassword == user.HashPassword);
+        var selectedUser = users.FirstOrDefault(u => u.Login == user.Login);
         return selectedUser;
     }
     public User GetUserInfo(int userId)

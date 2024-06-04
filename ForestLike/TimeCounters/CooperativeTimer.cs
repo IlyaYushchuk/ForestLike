@@ -84,8 +84,8 @@ public class CooperativeTimer:Timer
         CooperativeTimerRequest cooperativeTimerRequest = new CooperativeTimerRequest
         {
             ReceiverName = userName,
-            Time = time,
-            Theme = theme,
+            Time = Time,
+            Theme = Theme,
             Description = description
         };
         cooperativeTimerService.CallUserCooperativeTimer(cooperativeTimerRequest);

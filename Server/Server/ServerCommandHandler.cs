@@ -170,9 +170,9 @@ public class ServerCommandHandler
             var user = EntitySerializer.DeserializeUser(clearMessage);
             var searchUser = dbImmitation.GetUserInfo(user);
             string response;
-            if (searchUser == null)
+            if (searchUser == null || (user.Login != searchUser.Login && user.HashPassword != searchUser.HashPassword))
             {
-                int userId = dbImmitation.UploadNewUser(user);     
+                int userId = dbImmitation.UploadNewUser(user);
                 clients[tcpClient] = Tuple.Create(userId, user.Login);
                 response = "user successfully registered";
             }
